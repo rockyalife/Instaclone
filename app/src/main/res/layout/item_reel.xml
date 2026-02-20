@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Reel video/image -->
+    <ImageView
+        android:id="@+id/iv_reel_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_car"/>
+
+    <!-- Dark gradient overlay at bottom -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/gradient_dark_bottom"/>
+
+    <!-- Right side actions -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginBottom="80dp">
+
+        <!-- Like -->
+        <ImageView
+            android:id="@+id/iv_reel_like"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_heart"
+            android:colorFilter="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv_reel_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12.4K"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Comment -->
+        <ImageView
+            android:id="@+id/iv_reel_comment"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_comment"
+            android:colorFilter="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv_reel_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="342"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Share -->
+        <ImageView
+            android:id="@+id/iv_reel_share"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_send"
+            android:colorFilter="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <!-- Bottom info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_reel_avatar"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/circle_avatar_bg"/>
+
+            <TextView
+                android:id="@+id/tv_reel_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="username"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/btn_reel_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Follow"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_follow_outline"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_reel_caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <!-- Car tag -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_car"
+                android:colorFilter="#42A5F5"/>
+
+            <TextView
+                android:id="@+id/tv_reel_car_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:text=""
+                android:textColor="#42A5F5"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

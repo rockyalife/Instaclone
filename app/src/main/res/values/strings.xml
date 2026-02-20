@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">GearGram</string>
+    <string name="app_tagline">Drive. Share. Inspire.</string>
+
+    <!-- Auth -->
+    <string name="login_title">GearGram</string>
+    <string name="login_subtitle">Sign in to share your ride</string>
+    <string name="username_hint">Username or email</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_register">Sign Up</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="no_account">Don\'t have an account? <b>Sign up</b></string>
+    <string name="have_account">Already have an account? <b>Log in</b></string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join the car community</string>
+    <string name="email_hint">Email</string>
+    <string name="full_name_hint">Full name</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="or_divider">OR</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_create">Create</string>
+    <string name="nav_reels">Reels</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Home Feed -->
+    <string name="likes_count">%d likes</string>
+    <string name="comments_count">View all %d comments</string>
+    <string name="stories_title">Stories</string>
+    <string name="your_story">Your story</string>
+
+    <!-- Post actions -->
+    <string name="action_like">Like</string>
+    <string name="action_comment">Comment</string>
+    <string name="action_share">Share</string>
+    <string name="action_save">Save</string>
+    <string name="more_options">More options</string>
+
+    <!-- Profile -->
+    <string name="posts_label">Posts</string>
+    <string name="followers_label">Followers</string>
+    <string name="following_label">Following</string>
+    <string name="btn_edit_profile">Edit Profile</string>
+    <string name="btn_follow">Follow</string>
+    <string name="btn_following">Following</string>
+    <string name="btn_message">Message</string>
+    <string name="bio_default">Car enthusiast 🏎️ | Gear head | Speed lover</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search cars, people, hashtags</string>
+    <string name="explore_title">Explore</string>
+    <string name="trending_cars">Trending Cars</string>
+
+    <!-- Create Post -->
+    <string name="create_post_title">New Post</string>
+    <string name="caption_hint">Write a caption about your ride…</string>
+    <string name="add_location">Add location</string>
+    <string name="tag_people">Tag people</string>
+    <string name="btn_share_post">Share</string>
+    <string name="btn_next">Next</string>
+    <string name="select_from_gallery">Select from gallery</string>
+    <string name="take_photo">Take photo</string>
+
+    <!-- Reels -->
+    <string name="reels_title">Reels</string>
+
+    <!-- Car-related hashtags (used in dummy data) -->
+    <string name="hashtag_cars">#cars</string>
+    <string name="hashtag_cargram">#cargram</string>
+    <string name="hashtag_supercars">#supercars</string>
+    <string name="hashtag_motorhead">#motorhead</string>
+
+    <!-- Error messages -->
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_no_match">Passwords do not match</string>
+    <string name="error_login_failed">Login failed. Please try again.</string>
+</resources>

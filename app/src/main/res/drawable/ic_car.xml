@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Car icon for GearGram branding -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#1976D2"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M5,17H3V12L6,7H18L21,12V17H19M5,17A2,2 0,1 0,9 17A2,2 0,0 0,5 17ZM15,17A2,2 0,1 0,19 17A2,2 0,0 0,15 17ZM3,12H21M9,7L7.5,12H16.5L15,7"/>
+</vector>

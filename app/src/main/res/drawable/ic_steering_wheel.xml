@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Outer ring -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#1976D2"
+        android:strokeWidth="1.5"
+        android:pathData="M12,22A10,10 0,1 0,12 2A10,10 0,0 0,12 22Z"/>
+    <!-- Center hub -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M12,10A2,2 0,1 0,12 14A2,2 0,0 0,12 10Z"/>
+    <!-- Spokes -->
+    <path
+        android:strokeColor="#1976D2"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,10L12,2"/>
+    <path
+        android:strokeColor="#1976D2"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,14L6,20.5"/>
+    <path
+        android:strokeColor="#1976D2"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,14L18,20.5"/>
+</vector>

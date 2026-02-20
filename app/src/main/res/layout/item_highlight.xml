@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="72dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginEnd="8dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+
+        <!-- Highlight cover -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_highlight_cover"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:src="@drawable/placeholder_car"/>
+
+        <!-- Blue ring -->
+        <View
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/story_ring"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_highlight_name"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Track Day"
+        android:textColor="@color/text_primary"
+        android:textSize="11sp"/>
+
+</LinearLayout>

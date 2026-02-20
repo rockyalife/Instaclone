@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GearGram Blue Palette -->
+    <color name="blue_900">#0D47A1</color>
+    <color name="blue_800">#1565C0</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="blue_300">#64B5F6</color>
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_100">#BBDEFB</color>
+    <color name="blue_50">#E3F2FD</color>
+
+    <!-- Primary Colors -->
+    <color name="colorPrimary">@color/blue_700</color>
+    <color name="colorPrimaryDark">@color/blue_900</color>
+    <color name="colorPrimaryVariant">@color/blue_800</color>
+    <color name="colorSecondary">@color/blue_400</color>
+    <color name="colorAccent">@color/blue_500</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Story Ring Gradient Colors -->
+    <color name="story_ring_start">#1565C0</color>
+    <color name="story_ring_end">#42A5F5</color>
+
+    <!-- UI Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="divider">#EFEFEF</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#8E8E8E</color>
+    <color name="text_hint">#C7C7CC</color>
+    <color name="icon_tint">#262626</color>
+    <color name="like_red">#ED4956</color>
+    <color name="verified_blue">@color/blue_500</color>
+
+    <!-- Bottom Nav -->
+    <color name="nav_selected">@color/blue_700</color>
+    <color name="nav_unselected">#8E8E8E</color>
+
+    <!-- Input fields -->
+    <color name="input_background">#FAFAFA</color>
+    <color name="input_border">#DBDBDB</color>
+</resources>
