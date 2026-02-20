@@ -37,7 +37,7 @@
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:src="@drawable/ic_heart"
-            android:colorFilter="#FFFFFF"/>
+            android:tint="#FFFFFF"/>
 
         <TextView
             android:id="@+id/tv_reel_likes"
@@ -55,7 +55,7 @@
             android:layout_height="32dp"
             android:layout_marginTop="20dp"
             android:src="@drawable/ic_comment"
-            android:colorFilter="#FFFFFF"/>
+            android:tint="#FFFFFF"/>
 
         <TextView
             android:id="@+id/tv_reel_comments"
@@ -73,7 +73,7 @@
             android:layout_height="32dp"
             android:layout_marginTop="20dp"
             android:src="@drawable/ic_send"
-            android:colorFilter="#FFFFFF"/>
+            android:tint="#FFFFFF"/>
 
     </LinearLayout>
 
@@ -144,7 +144,7 @@
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:src="@drawable/ic_car"
-                android:colorFilter="#42A5F5"/>
+                android:tint="#42A5F5"/>
 
             <TextView
                 android:id="@+id/tv_reel_car_tag"

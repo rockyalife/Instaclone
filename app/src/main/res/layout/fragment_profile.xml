@@ -96,7 +96,6 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="space_evenly"
                     android:layout_marginStart="16dp"
                     app:layout_constraintBottom_toBottomOf="@+id/iv_profile_avatar"
                     app:layout_constraintEnd_toEndOf="parent"

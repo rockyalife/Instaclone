@@ -22,7 +22,7 @@
         android:layout_gravity="top|end"
         android:layout_margin="6dp"
         android:src="@drawable/ic_reels"
-        android:colorFilter="#FFFFFF"
+        android:tint="#FFFFFF"
         android:visibility="gone"/>
 
 </FrameLayout>
